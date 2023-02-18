@@ -104,6 +104,7 @@ html {
 
 .general{
     display: flex;
+    justify-content: space-between;
 }
 
 .block-foto{
@@ -134,18 +135,34 @@ html {
 
 .block-info__bottom{
     margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-info__right-btn{
+    padding: 41px 0;
+
 }
 
 .block-info__img{
     display: inline-block;
-    padding-right: 13px;
+    padding-right: 2px;
     margin-bottom: 13px;
+}
+
+.block-info__img{
+    display: inline-block;
+}
+
+.box-info__images{
+    width: 70%;
+    height: 70%;
 }
 
 .block-info__prev{
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 24px;
+    font-size: 19px;
     color: #333;
 }
 
@@ -154,4 +171,31 @@ html {
     font-weight: 500;
     font-size: 32px;
     color: #156963;
+}
+
+.block-info__left-btn{
+    background: #156963;
+}
+
+.block-info__next{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 19px;
+    color: #F2F2F2;
+    padding-right: 2px;
+}
+
+.block-info__left-btn{
+    padding: 41px 49px;
+}
+
+.block-info__title_white{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+}
+
+.advantages{
+    width: 100%;
 }
