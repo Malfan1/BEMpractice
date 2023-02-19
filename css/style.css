@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 html {
     box-sizing: border-box;
@@ -370,5 +373,104 @@ html {
     color: #FAFEFE;
     font-family: 'Nunito';
     font-weight: 700;
+    font-size: 14px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.plantku__h2{
+    font-family: 'Poppins';
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #156963;
+    padding-bottom: 24px;
+}
+
+.plantku__p-under{
+    font-family: 'Work Sans';
+    font-size: 16px;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.plantku__p-bottom{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    width: 282px;
+    color: #4f4f4f;
+}
+
+.footer{
+    margin-bottom: 71px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.nav__h2{
+    font-family: 'Work Sans';
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.nav__ul{
+    list-style: none;
+    padding: 0;
+}
+
+.nav__li{
+    font-family: 'Work Sans';
+    padding-bottom: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.form__h2{
+    font-family: 'Work Sans';
+    font-size: 16px;
+    padding-bottom: 14px;
+}
+
+.form__input{
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    padding: 8px 13px;
+    margin-bottom: 14px;
+}
+
+.form__input:focus{
+    border: transparent;
+}
+
+.form__btn{
+    display: block;
+    background: #156963;
+    backdrop-filter: blur(5px);
+    border-radius: 2px;
+    border: none;
+}
+
+.form__link{
+    display: block;
+    padding: 4px 12px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway';
     font-size: 14px;
 }
