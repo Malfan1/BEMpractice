@@ -19,8 +19,8 @@ html {
 }
 
 .container {
-    width: 1200px;
-    min-width: 1200px;
+    width: 1168px;
+    min-width: 1168px;
     margin: auto;
 }
 
@@ -223,7 +223,7 @@ html {
 }
 
 .content__h2_width{
-    width: 140px;
+   width: 49%;
 }
 
 .item-head{
@@ -257,6 +257,7 @@ html {
 .item{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .item-plant__figcaption{
@@ -276,4 +277,98 @@ html {
 
 .item-plant__price{
     font-weight: 600;
+}
+
+.relax{
+    margin-bottom: 88px;
+}
+
+.content-grid{
+    display: grid;
+    grid-template-areas: 
+    "words fotobig"
+    "foto fotobig";
+}
+
+.block-with-text{
+    padding-top: 17px;
+    grid-area: words;
+    padding-right: 109px;
+}
+
+.block-with-text__h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    padding-right: 82px;
+    padding-bottom: 16px;
+}
+
+.block-with-text__p{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 28px;
+    color: #2C1500;
+    opacity: 0.8;
+    padding-right: 40px;
+    padding-bottom: 74px;
+}
+
+.left-foto{
+    grid-area: foto;
+}
+
+.right-foto{
+    grid-area: fotobig;
+}
+
+.pre-footer{
+    border-bottom: 1px solid #156963;
+    margin-bottom: 60px;
+}
+
+.content-last{
+    display: flex;
+    background: url("../img/rectangle.jpg");
+    background-size: cover;
+    min-height: 100%;
+    padding-right: 41px;
+    padding-left: 97px;
+    margin-bottom: 80px;
+}
+
+.content-last__h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.content-last__img-plant{
+    margin-left: auto;
+}
+
+.content-last__btn{
+    background: #156963;
+    border: none;
+}
+
+.content-last__h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    padding: 82px 43px 32px 0;
+    color: #2C1500;
+}
+
+.content-last__link{
+    display: block;
+    text-decoration: none;
+    padding: 10px 42px;
+    color: #FAFEFE;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 14px;
 }
