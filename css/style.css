@@ -12,7 +12,6 @@ html {
     margin: 0;
 }
 
-
 .header {
     position: absolute;
     width: 100%;
@@ -32,10 +31,6 @@ html {
 
 .logo{
     position: relative;
-}
-
-.logo-img{
-
 }
 
 .logo__p{
@@ -71,7 +66,6 @@ html {
     cursor: pointer;
 }
 
-
 .right-box__btn_white{
     padding: 8px 20px;
     border: none;
@@ -105,11 +99,9 @@ html {
 .general{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 140px;
 }
 
-.block-foto{
-
-}
 
 .block-info{
     padding-top: 186px;
@@ -148,10 +140,6 @@ html {
     display: inline-block;
     padding-right: 2px;
     margin-bottom: 13px;
-}
-
-.block-info__img{
-    display: inline-block;
 }
 
 .box-info__images{
@@ -196,6 +184,96 @@ html {
     color: #fff;
 }
 
-.advantages{
-    width: 100%;
+.adv{
+    display: flex;
+    margin-bottom: 83.5px;
+}
+
+.content{
+    border: 1px solid #E0E0E0;
+    margin-right: 32px;
+}
+
+.content:last-of-type{
+    margin-right: 0;
+}
+
+.content__h2{
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #156963;
+    padding: 16px 50px 0 0;
+    width: 90px;
+}
+
+.content__p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    padding: 16px 21px 16px 16px;
+}
+
+.content__img{
+    display: inline-block;
+    padding: 16px 16px 0 16px;
+}
+
+.content__h2_width{
+    width: 140px;
+}
+
+.item-head{
+    display: flex;
+    padding-bottom: 19.5px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 24px;
+}
+
+.item-head__h2{
+    margin-right: auto;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.item-head__select{
+    padding: 8px 12px;
+}
+
+.item-head__option{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.item-head__select:focus{
+    outline: none;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-plant__figcaption{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.item-plant__h2{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+.item-plant__price{
+    font-weight: 600;
 }
